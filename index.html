@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIL'ADAMA WELDING CONSTRUCTIONS | Precision Welding & Solid Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🛠️</span>
+                BIL'ADAMA WELDING
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 1: Fullscreen Slideshow -->
+        <section id="home" class="slideshow">
+            <div class="slide active">
+                <div class="slide-bg" style="background-image: url('images/slides/slide1.jpg');"></div>
+                <div class="overlay"></div>
+                <div class="slide-content">
+                    <h1>Precision Welding. Solid Construction.</h1>
+                    <p>BIL'ADAMA WELDING CONSTRUCTIONS builds the foundation for your success.</p>
+                    <a href="#projects" class="btn-primary">View Our Projects</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('images/slides/slide2.jpg');"></div>
+                <div class="overlay"></div>
+                <div class="slide-content">
+                    <h1>Certified Professionals, Uncompromising Quality</h1>
+                    <p>From MIG to TIG, our team brings decades of experience to every project.</p>
+                    <a href="#services" class="btn-primary">Our Services</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('images/slides/slide3.jpg');"></div>
+                <div class="overlay"></div>
+                <div class="slide-content">
+                    <h1>Serving Kano State and Beyond</h1>
+                    <p>Reliable on-site and in-shop welding solutions for your industrial and commercial needs.</p>
+                    <a href="#contact" class="btn-primary">Get a Free Quote</a>
+                </div>
+            </div>
+            <button class="slide-nav prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slide-nav next"><i class="fas fa-chevron-right"></i></button>
+            <div class="slide-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </section>
+
+        <!-- Section 2: Who We Are Bar -->
+        <section class="intro-bar">
+            <div class="container">
+                <div class="intro-content">
+                    <i class="fas fa-certificate intro-icon"></i>
+                    <p><strong>BIL'ADAMA WELDING CONSTRUCTIONS</strong> is a leading provider of professional welding and fabrication services in Kano State. We are committed to delivering <strong>strength, precision, and reliability</strong> in every project.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: About Us -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Our Company</h2>
+                    <p>With years of excellence in welding and construction</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Your Trusted Welding Partner</h3>
+                        <p>Founded with a commitment to quality and durability, BIL'ADAMA WELDING CONSTRUCTIONS has grown to become one of Kano's most reliable welding service providers.</p>
+                        <p>Our team of certified welders and fabricators combines traditional craftsmanship with modern techniques to deliver exceptional results for residential, commercial, and industrial clients.</p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>10+ Years Experience</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-hard-hat"></i>
+                                <span>Safety Certified</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-users"></i>
+                                <span>Skilled Team</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about/team.png" alt="Our Welding Team" onerror="this.src='https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Our Core Services -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Core Services</h2>
+                    <p>Professional welding solutions for all your needs</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Structural Fabrication</h3>
+                        <p>Design and construction of robust steel frameworks for buildings, warehouses, and industrial facilities.</p>
+                        <ul class="service-list">
+                            <li>Steel Frame Construction</li>
+                            <li>Industrial Support Structures</li>
+                            <li>Building Framework</li>
+                        </ul>
+                        <a href="#contact" class="link-text">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-truck-moving"></i>
+                        </div>
+                        <h3>Mobile Welding</h3>
+                        <p>Our fully equipped mobile unit brings professional welding services directly to your location.</p>
+                        <ul class="service-list">
+                            <li>On-site Repairs</li>
+                            <li>Emergency Welding</li>
+                            <li>Field Fabrication</li>
+                        </ul>
+                        <a href="#contact" class="link-text">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-pipe"></i>
+                        </div>
+                        <h3>Pipe Welding</h3>
+                        <p>Specialized pipe welding for industrial, commercial, and residential plumbing and gas systems.</p>
+                        <ul class="service-list">
+                            <li>Industrial Piping</li>
+                            <li>Gas Line Welding</li>
+                            <li>Water System Pipes</li>
+                        </ul>
+                        <a href="#contact" class="link-text">Get Quote <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Why Choose Us -->
+        <section class="why-choose-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose BIL'ADAMA?</h2>
+                    <p>We stand out for quality, reliability, and professionalism</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Expert Craftsmanship</h3>
+                        <p>Our team is certified and brings years of hands-on experience to every weld, ensuring superior quality.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Commitment to Safety</h3>
+                        <p>We adhere to the strictest safety standards and protocols to protect our team and your project site.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>On-Time, On-Budget</h3>
+                        <p>We pride ourselves on clear communication and delivering projects as promised, every time.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Modern Equipment</h3>
+                        <p>We use state-of-the-art welding equipment and technology for precise, efficient results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 6: Featured Projects -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>See our completed work and success stories</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/warehouse.jpg" alt="Kano Warehouse Steel Frame" onerror="this.src='https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                            <div class="project-overlay">
+                                <a href="#" class="project-view"><i class="fas fa-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Kano Warehouse Steel Frame</h3>
+                            <p>Design and fabrication of a 50-ton steel frame structure for an industrial warehouse.</p>
+                            <div class="project-tags">
+                                <span class="tag">Structural</span>
+                                <span class="tag">Industrial</span>
+                            </div>
+                            <a href="#contact" class="link-text">Get Similar Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/equipment.jpg" alt="Factory Equipment Repair" onerror="this.src='https://images.unsplash.com/photo-1576671416638-7d8b0b6e7c88?ixlib=rb-4.0.3&auto=format&fit=crop&w-600&q=80'">
+                            <div class="project-overlay">
+                                <a href="#" class="project-view"><i class="fas fa-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Factory Equipment Repair</h3>
+                            <p>Precision on-site repair of critical manufacturing machinery for a Kano factory.</p>
+                            <div class="project-tags">
+                                <span class="tag">Repair</span>
+                                <span class="tag">Industrial</span>
+                            </div>
+                            <a href="#contact" class="link-text">Get Similar Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/gates.jpg" alt="Custom Security Gates" onerror="this.src='https://images.unsplash.com/photo-1598030970391-8c6cbda68c7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'">
+                            <div class="project-overlay">
+                                <a href="#" class="project-view"><i class="fas fa-expand"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Custom Security Gates</h3>
+                            <p>Fabrication and installation of high-security steel gates for residential complexes.</p>
+                            <div class="project-tags">
+                                <span class="tag">Security</span>
+                                <span class="tag">Residential</span>
+                            </div>
+                            <a href="#contact" class="link-text">Get Similar Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Testimonials -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>Trusted by businesses across Kano State</p>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Bil'adama did an outstanding job on our factory's structural repairs. Their work is clean, fast, and incredibly strong. They completed the project ahead of schedule without compromising quality."</p>
+                            <div class="client-info">
+                                <div class="client-name">Alhaji Ibrahim</div>
+                                <div class="client-company">Kano Manufacturing Co.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"Professional service from start to finish. They completed our steel structure ahead of schedule and within budget. Their attention to detail is exceptional."</p>
+                            <div class="client-info">
+                                <div class="client-name">Musa Abdullahi</div>
+                                <div class="client-company">Construction Manager</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p>"The mobile welding service saved us significant downtime. Their team was professional, efficient, and the repair work has held up perfectly for over a year now."</p>
+                            <div class="client-info">
+                                <div class="client-name">Fatima Yusuf</div>
+                                <div class="client-company">Industrial Plant Owner</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <span class="t-dot active" data-testimonial="0"></span>
+                    <span class="t-dot" data-testimonial="1"></span>
+                    <span class="t-dot" data-testimonial="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Contact Form -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Us</h2>
+                    <p>Get in touch for a free consultation and quote</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p><a href="tel:+2348088325352">+234 808 832 5352</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:biladamaweldingconstructions@gmail.com">biladamaweldingconstructions@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>No 0165 Independent road, Sauna/Kawaji, Ungoggo L.G.A. Kano State.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Business Hours</strong>
+                                <p>Mon-Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://wa.me/2348088325352" target="_blank" class="social-link whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="tel:+2348088325352" class="social-link phone">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <a href="mailto:biladamaweldingconstructions@gmail.com" class="social-link email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Request a Quote</h3>
+                        <form id="quoteForm">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <select required>
+                                    <option value="" disabled selected>Select Service Required</option>
+                                    <option value="structural">Structural Fabrication</option>
+                                    <option value="mobile">Mobile Welding</option>
+                                    <option value="pipe">Pipe Welding</option>
+                                    <option value="repair">Equipment Repair</option>
+                                    <option value="other">Other Service</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Project Details / Requirements" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">
+                                <i class="fas fa-paper-plane"></i> Send Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 9: Final Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Next Project?</h2>
+                    <p>Contact us today for a free, no-obligation consultation and quote.</p>
+                    <div class="cta-buttons">
+                        <a href="tel:+2348088325352" class="btn-secondary">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="#contact" class="btn-primary">
+                            <i class="fas fa-envelope"></i> Get Quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🛠️</span>
+                        <h4>BIL'ADAMA WELDING CONSTRUCTIONS</h4>
+                    </div>
+                    <p>Your trusted partner for precision welding and solid construction in Kano State and beyond.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/2348088325352" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="tel:+2348088325352" title="Call">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:biladamaweldingconstructions@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="fas fa-wrench"></i> Structural Fabrication</li>
+                        <li><i class="fas fa-truck"></i> Mobile Welding</li>
+                        <li><i class="fas fa-pipe"></i> Pipe Welding</li>
+                        <li><i class="fas fa-tools"></i> Equipment Repair</li>
+                        <li><i class="fas fa-shield-alt"></i> Security Gates</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>No 0165 Independent road, Sauna/Kawaji, Ungoggo L.G.A. Kano State.</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:+2348088325352">+234 808 832 5352</a></p>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:biladamaweldingconstructions@gmail.com">biladamaweldingconstructions@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BIL'ADAMA WELDING CONSTRUCTIONS. All Rights Reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2348088325352?text=Hi%20BIL'ADAMA%20WELDING%20CONSTRUCTIONS,%20I'm%20interested%20in%20your%20services." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
